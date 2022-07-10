@@ -1,0 +1,32 @@
+/* 设置背景颜色 */
+/* .protyle-content {
+    background-color: var(--b3-theme-background2);
+} */
+
+/* 设置正文背景颜色/A4纸大小 */
+.protyle .b3-typography,
+.protyle .protyle-wysiwyg {
+    max-width: 25cm;
+    margin: 4px auto 4px !important;
+    /* padding-left: 1cm !important;
+    padding-right: 1cm !important; */
+}
+
+/* .protyle-content {
+    background-image: linear-gradient(to right, rgba(60, 10, 30, 0.05) 1px, transparent 0px);
+    background-size: 15vw 15vw !important;
+    background-position: 50% center;
+} */
+
+/* 修复由于思源笔记更换选择器导致的标题没有和正文对齐的bug */
+.protyle-title {
+    max-width: 25cm;
+    margin: 4px auto 4px !important;
+    /* padding-left: 1cm !important;
+    padding-right: 1cm !important; */
+}
+
+/* 修改头图emoji位置 */
+.protyle-background .protyle-background__iconw {
+    left: calc((100% - 25cm) / 2) !important;
+}

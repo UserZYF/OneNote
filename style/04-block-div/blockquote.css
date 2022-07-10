@@ -1,0 +1,31 @@
+/* ----------------------------------------------引用---------------------------------------------- */
+/* ——————————————————————————设置引用格式———————————————————————————— */
+.protyle-wysiwyg [data-node-id].bq:not(div.list div.bq),
+.b3-typography blockquote {
+    border-left-color: #ebebeb;
+    padding: 0px 4px 0px 4px !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* .protyle-wysiwyg [data-node-id].bq:not(div.list div.bq):before,
+.b3-typography blockquote:not(div.list div.bq):before {
+    content: url("../../src/yinyong.svg");
+    margin-left: 4px;
+} */
+
+/* 设置列表中的引用样式 */
+div.list div.bq {
+    min-height: 26px;
+    padding: 0px !important;
+    border-left-width: 4px;
+    background-color: #fafafa;
+}
+
+div.list div.bq div.p {
+    padding: 4px 0 4px 12px;
+}
+
+div.list div.bq div[data-type="NodeHeading"] {
+    margin-top: 4px;
+}

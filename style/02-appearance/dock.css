@@ -1,0 +1,58 @@
+/* 隐藏左上角设置按钮，鼠标悬浮时显示 */
+#toolbar .toolbar__item svg {
+    opacity: 0;
+}
+
+#toolbar:hover svg {
+    opacity: 1;
+}
+
+/* 设置顶栏背景颜色 */
+#toolbar {
+    background-color: #7719aa;
+}
+
+/* 设置顶部标题颜色 */
+.toolbar #drag,
+.toolbar svg {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* 设置顶部dock栏条目颜色 */
+.toolbar .dock__item {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.toolbar__item:hover,
+.toolbar__item--active {
+    background-color: #c099d6 !important;
+}
+
+/* 给左侧dock栏设置右边框 */
+div#dockLeft {
+    border-right: 1px solid rgba(0, 0, 0, .07);
+    background-color: #f3f2f0;
+}
+
+
+/* 给右侧dock栏设置左边框 */
+div#dockRight {
+    border-left: 1px solid var(--b3-border-color);
+    background-color: white;
+    /* height: calc(100% - 58px);
+    position: absolute;
+    top: 58px;
+    right: 0px; */
+}
+
+div#dockLeft .dock__item,
+div#dockRight .dock__item {
+    color: #99999e;
+}
+
+div#dockLeft .dock__item--active,
+div#dockRight .dock__item--active {
+    color: var(--b3-theme-primary);
+    background-color: rgba(119, 25, 170, 0.2);
+    border-radius: 0px;
+}
