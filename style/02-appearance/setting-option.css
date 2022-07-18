@@ -5,8 +5,9 @@
     border-right: 1px solid var(--b3-border-color);
 }
 
-
-li.b3-list-item--focus.b3-list-item.b3-list-item--big {
+/* 设置界面侧栏文字和图标颜色与主色保持一致 */
+li.b3-list-item--focus.b3-list-item.b3-list-item--big,
+li.b3-list-item--focus.b3-list-item.b3-list-item--big svg.b3-list-item__graphic {
     color: var(--b3-theme-primary);
 }
 
@@ -30,19 +31,14 @@ li.b3-list-item--focus.b3-list-item.b3-list-item--big {
     border: 0.15em solid white;
 }
 
-/* 去掉设置界面某些选项框前面有滚动条的bug */
-/* .b3-dialog--open .b3-dialog__container .fn__flex-1 {
-    overflow: hidden;
-} */
 
 .fn__flex-center.fn__flex-1.ft__on-surface {
     overflow: hidden;
 }
 
-/* 为“打开主题文件夹”的按钮设置下划线 */
+/* 为“打开主题文件夹”的按钮文字设置为蓝色 */
 a#appearanceOpenTheme,
 a#appearanceOpenIcon {
-    /* border-bottom: 2px solid gray; */
     color: rgb(100, 100, 255);
 }
 

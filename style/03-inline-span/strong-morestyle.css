@@ -232,7 +232,7 @@ strong[style="color: var(--b3-font-color13);"] {
 .b3-color__square[data-type="color"][style="background-color:var(--b3-font-color13)"] {
     content: url("../../src/OneNote.svg");
     color: transparent !important;
-    background-color: var(--b3-theme-primary) !important;
+    /* background-color: var(--b3-theme-primary) !important; */
 }
 
 /* ——————————————————————为样式中13种背景设置格式—————————————————————— */

@@ -2,6 +2,7 @@
 mark {
     border-radius: 0px;
     margin: 0px 0px;
+    border-bottom: 0.1em solid var(--b3-font-color3);
 }
 
 /* 搜索高亮 */

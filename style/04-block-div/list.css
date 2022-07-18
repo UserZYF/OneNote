@@ -1,3 +1,4 @@
+/* 调整列表前小竖线位置 */
 .protyle-wysiwyg [data-node-id].li>[data-node-id]:before {
     content: "";
     position: absolute;
@@ -5,6 +6,11 @@
     top: 4px;
     left: -18px;
     z-index: 3;
+}
+
+/* 调整列表中代码块左边小竖线的位置 */
+.protyle-wysiwyg [data-node-id].li>[data-node-id].code-block {
+    margin-left: 32.5px !important;
 }
 
 /* ---------------------给有颜色背景的块设置前面无序列表的样式---------------- */
@@ -68,71 +74,8 @@
 /* -------------------------列表折叠 END------------------------ */
 /* ----------------------------------列表 END--------------------------------------- */
 
-
-
-/* ---------------------—---------------------复选框（待办事项）------------------------------------------------ */
-/* ————————————————————————————给默认的待办事项前的图标和悬浮背景颜色设置为无—————————————————————————————— */
-.protyle-wysiwyg [data-node-id].li>.protyle-action--task svg {
-    opacity: 0;
-}
-
-.protyle-wysiwyg [data-node-id].li>.protyle-action--task:hover:after {
-    background-color: transparent !important;
-    opacity: 0 !important;
-}
-
-/* ————————————————————————————未完成事项的背景颜色———————————————————————————————————————— */
-.protyle-wysiwyg .protyle-action--task,
-.b3-typography .protyle-task {
-    content: url(../../src/dui.svg);
-    width: 1.2em;
-    height: 1.2em;
-    top: 0.4em !important;
-}
-
-/* 折叠待办事项前面的图标 */
-div[fold="1"] .protyle-action.protyle-action--task {
-    content: url(../../src/dui-fold.svg);
-    width: 1.2em;
-    height: 1.2em;
-    top: 0.4em !important;
-}
-
-/* ————————————————————————————————————————复选框选中———————————————————————————————— */
-.protyle-task--done>.protyle-action--task,
-.b3-typography .protyle-task--done {
-    content: url(../../src/dui-c.svg);
-}
-
-/* 折叠待办事项完成时的图标 */
-.protyle-task--done[fold="1"]>.protyle-action--task,
-.b3-typography[fold="1"] .protyle-task--done {
-    content: url(../../src/dui-2.svg) !important;
-    /* width: 1.2em;
-    height: 1.2em;
-    top: 0.4em !important; */
-}
-
 /* —————————————————————完成的待办事项删除线样式和颜色（包括字体样式）——————————————————————— */
 .li.protyle-task--done .p {
     text-decoration: line-through;
-    color: var(--b3-theme-primary);
+    color: #55555a80;
 }
-
-/* 设置待办事项中的更多样式 */
-.li.protyle-task--done .p strong {
-    color: var(--b3-theme-primary) !important;
-    background-color: transparent !important;
-}
-
-/* 无序列表转表格中的待办事项符号位置调整 */
-.list[custom-f="bg"]>div.protyle-action.protyle-action--task {
-    position: relative;
-    top: 1em !important;
-}
-
-.list[data-node-id][data-type="NodeList"][custom-f="bg"] .protyle-action {
-    top: 50% !important;
-}
-
-/* ---------------------—---------------------复选框（待办事项）END------------------------------------------------ */

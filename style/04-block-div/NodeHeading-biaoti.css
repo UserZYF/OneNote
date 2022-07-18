@@ -2,18 +2,6 @@
 .protyle-title__input {
     background-color: transparent;
     line-height: 1.3 !important;
-    /* border-bottom: 1px solid rgba(128, 128, 128, 0.3); */
-}
-
-/* 用伪元素在文档标题下方加一条固定宽度的线条 */
-.protyle-title::after {
-    content: "";
-    width: 25vw;
-    height: 0.05em;
-    background-color: rgba(128, 128, 128, 0.3);
-    display: inline-block;
-    position: absolute;
-    bottom: -5px;
 }
 
 /* 设置标题左边icon的样式 */
@@ -22,19 +10,13 @@
     left: -2em;
 }
 
+
+
 .protyle-title span svg {
     width: 1.5em;
     height: 1.5em;
     color: #80808080;
 }
-
-/* 设置标题宽度 */
-/* .protyle-title.protyle-wysiwyg--attr {
-    max-width: 19cm;
-    margin: 4px auto 4px !important;
-    padding-left: 1cm !important;
-    padding-right: 1cm !important;
-} */
 
 
 /* ——————————————————————————H1-H6 标题样式—————————————————————————— */
@@ -114,37 +96,30 @@
     position: absolute;
     top: -0.8em;
     color: #55555a4d;
-    /* opacity: 0.3; */
 }
 
 .protyle-wysiwyg [data-node-id].h1::before {
     content: ".";
-    /* color: var(--b3-font-color1); */
 }
 
 .protyle-wysiwyg [data-node-id].h2::before {
     content: "..";
-    /* color: var(--b3-font-color2); */
 }
 
 .protyle-wysiwyg [data-node-id].h3::before {
     content: "...";
-    /* color: var(--b3-font-color3); */
 }
 
 .protyle-wysiwyg [data-node-id].h4::before {
     content: "....";
-    /* color: var(--b3-font-color4); */
 }
 
 .protyle-wysiwyg [data-node-id].h5::before {
     content: ".....";
-    /* color: var(--b3-font-color5); */
 }
 
 .protyle-wysiwyg [data-node-id].h6::before {
     content: "......";
-    /* color: var(--b3-font-color6); */
 }
 
 /* 带有背景样式的标题中，标题上面的".."不显示 */
@@ -171,5 +146,5 @@ div[style*="background-color"] div[data-type="NodeHeading"]::before {
     background-color: var(--b3-theme-background2) !important;
     color: var(--b3-font-color-gray-tm) !important;
     border: var(--b3-border-normal);
-    border-radius: var(--b3-border-radius-noraml);
+    border-radius: 1px;
 }

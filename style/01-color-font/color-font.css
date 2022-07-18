@@ -125,19 +125,39 @@
     --b3-font-color13: gray;
 
     /* 13种自定义背景颜色（均取自OneNote） */
-    --b3-font-background1: #d99694;
-    --b3-font-background2: #fac08f;
+    --b3-font-background1: #e5b9b7;
+    --b3-font-background2: #fbd5b5;
     --b3-font-background3: #ffff99;
-    --b3-font-background4: #c3d69b;
-    --b3-font-background5: #ccffff;
-    --b3-font-background6: #99ccff;
-    --b3-font-background7: #b2a2c7;
+    --b3-font-background4: #d7e3bc;
+    --b3-font-background5: #ccffcc;
+    --b3-font-background6: #b8cce4;
+    --b3-font-background7: #ccc1d9;
     --b3-font-background8: #c0c0c0;
     --b3-font-background9: red;
     --b3-font-background10: yellow;
     --b3-font-background11: blue;
     --b3-font-background12: green;
     --b3-font-background13: transparent;
+
+    /* 8种文档树鼠标悬浮颜色 */
+    --b3-filetree-background1: #fbd2d4;
+    --b3-filetree-background2: #fce1cd;
+    --b3-filetree-background3: #fcf4cc;
+    --b3-filetree-background4: #cce7e0;
+    --b3-filetree-background5: #cde3f4;
+    --b3-filetree-background6: #dbdcf4;
+    --b3-filetree-background7: #e7d5f5;
+    --b3-filetree-background8: #f1f1f1;
+
+    /* 8中文档树左侧线条颜色 */
+    --b3-filetree-border-color1: #e84c21cc;
+    --b3-filetree-border-color2: #ed7d31cc;
+    --b3-filetree-border-color3: #ffc000cc;
+    --b3-filetree-border-color4: #70ad47cc;
+    --b3-filetree-border-color5: #1ec3b4cc;
+    --b3-filetree-border-color6: #5b9bd5cc;
+    --b3-filetree-border-color7: #8064a2cc;
+    --b3-filetree-border-color8: #7a878bcc;
 
     /* PDF标注颜色 */
     --b3-pdf-sidebar-width: 200px;

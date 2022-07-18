@@ -15,7 +15,7 @@
 
 /* ----------------------------------------------------块添加圆角------------------------------------------- */
 .protyle-wysiwyg [data-node-id] {
-    border-radius: var(--b3-border-radius-none);
+    border-radius: 1px;
 }
 
 /* 块标提示不被窗口线遮挡 */
@@ -26,7 +26,7 @@
 /* ————————————————————设置滚动条样式——————————————————__ */
 ::-webkit-scrollbar-thumb {
     background-color: var(--b3-scroll-color);
-    border-radius: var(--b3-border-radius-half-round);
+    border-radius: 1px;
 }
 
 

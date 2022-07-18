@@ -8,8 +8,8 @@
 .protyle .protyle-wysiwyg {
     max-width: 25cm;
     margin: 4px auto 4px !important;
-    /* padding-left: 1cm !important;
-    padding-right: 1cm !important; */
+    padding-left: 2cm !important;
+    padding-right: 2cm !important;
 }
 
 /* .protyle-content {
@@ -22,11 +22,17 @@
 .protyle-title {
     max-width: 25cm;
     margin: 4px auto 4px !important;
-    /* padding-left: 1cm !important;
-    padding-right: 1cm !important; */
+    padding-left: 2cm !important;
+    padding-right: 2cm !important;
 }
 
-/* 修改头图emoji位置 */
+/* 修改顶部生成emoji的按钮位置 */
 .protyle-background .protyle-background__iconw {
-    left: calc((100% - 25cm) / 2) !important;
+    left: max(calc((100% - 25cm) / 2), 2cm) !important;
 }
+
+/* 设置标题左边icon的样式 */
+/* .protyle-title__icon {
+    top: 1em;
+    left: 2em;
+} */

@@ -276,10 +276,10 @@ div[data-node-id][data-type="NodeHeading"][custom-f~=dm]::after {
     color: gray !important;
     padding: 20px 10px !important;
     /* margin: 20px 5px !important; */
-    /* width: 300px !important;
-    min-height: 300px !important; */
     width: 300px !important;
-    min-height: fit-content !important;
+    min-height: 300px !important;
+    width: 300px !important;
+    /* min-height: fit-content !important; */
     position: relative;
     z-index: 2;
     /* box-shadow: var(--b3-right-bottom-shadow); */
@@ -292,7 +292,7 @@ div[data-node-id][data-type="NodeHeading"][custom-f~=dm]::after {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);
     box-sizing: border-box !important;
     text-align: justify;
-    border-radius: var(--b3-border-radius-noraml);
+    border-radius: 1px;
 }
 
 /* 单独设置属性 */
@@ -326,16 +326,15 @@ div[data-node-id][data-type="NodeHeading"][custom-f~=dm]::after {
     color: white !important;
     border-left: 0px solid transparent !important;
     box-sizing: border-box !important;
-    border-radius: var(--b3-border-radius-noraml) !important;
+    border-radius: 1px !important;
     box-shadow: var(--b3-right-bottom-shadow);
     padding: 20px 10px !important;
     /* margin: 20px 5px !important; */
     position: relative;
     z-index: 2;
-    /* width: 300px !important;
-    min-height: 300px !important; */
     width: 300px !important;
-    min-height: fit-content !important;
+    min-height: 300px !important;
+    /* min-height: fit-content !important; */
     border-top: 3px solid black !important;
     text-align: justify;
 }

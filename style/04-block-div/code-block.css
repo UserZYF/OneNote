@@ -1,10 +1,9 @@
 /* -------------------------------------------------代码块样式--------------------------------------------------- */
 .code-block {
-    /* margin: 4px !important; */
     border-radius: 1px !important;
     background-color: #f3f5f7;
     border: 0.1em solid var(--b3-border-color) !important;
-    margin: 4px !important;
+    margin-left: 4px !important;
 }
 
 /* 代码块主体部分设置 */
@@ -16,7 +15,7 @@
     font-family: var(--b3-font-family-code);
     background-size: 20px 20px;
     background-image: none !important;
-    background: white;
+    background: var(--b3-theme-background) !important;
     border-top-right-radius: 4px;
     /* background-color: var(--b3-theme-background2); */
     /* z-index: -1; */
@@ -50,7 +49,8 @@
 .protyle-linenumber__rows {
     margin-top: 32px !important;
     padding: 4px;
-    background-color: #f8f9fa;
+    /* background-color: #f8f9fa; */
+    background-color: var(--b3-theme-background) !important;
     margin-bottom: 0px;
     font-family: var(--b3-font-family-code);
     border-top-left-radius: 4px;

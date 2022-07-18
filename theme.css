@@ -16,7 +16,7 @@
 /* 修改上左右dock栏样式 */
 @import url("style/02-appearance/dock.css");
 /* 修改正文A4纸大小 */
-@import url("style/02-appearance/A4.css");
+/* @import url("style/02-appearance/A4.css"); */
 /* 修改文档树样式 */
 @import url("style/02-appearance/file-tree.css");
 /* 修改标签页样式 */
@@ -72,6 +72,7 @@
 @import url("style/04-block-div/image.css");
 /* 修改列表样式 */
 @import url("style/04-block-div/list.css");
+/* 设置无序列表样式，来自于Roy的Notion主题 */
 @import url("style/04-block-div/unorder-list.css");
 /* 修改代码块样式 */
 @import url("style/04-block-div/code-block.css");
