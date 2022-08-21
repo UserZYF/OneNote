@@ -1,8 +1,14 @@
 /* -------------------------------------------------高亮----------------------------------------------- */
-mark {
+/* 编辑区域高亮样式增加下划线 */
+.protyle-wysiwyg mark {
     border-radius: 0px;
     margin: 0px 0px;
     border-bottom: 0.1em solid var(--b3-font-color3);
+}
+
+/* 搜索框中的高亮样式不带下划线 */
+.b3-dialog__container mark {
+    border-bottom-width: 0px;
 }
 
 /* 搜索高亮 */
@@ -10,7 +16,7 @@ mark {
     outline: 1px solid var(--b3-theme-on-background);
     color: var(--b3-theme-on-background) !important;
     background-color: transparent !important;
-    border-radius: var(--b3-border-radius-none);
+    border-radius: 0px;
 }
 
 /* -------------------------------------------------高亮 END----------------------------------------------- */

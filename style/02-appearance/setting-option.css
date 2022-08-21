@@ -27,8 +27,37 @@ li.b3-list-item--focus.b3-list-item.b3-list-item--big svg.b3-list-item__graphic 
 }
 
 /* 设置界面左右按钮的边框 */
-.b3-dialog--open .b3-dialog__container .b3-switch:after {
+/* .b3-dialog--open .b3-dialog__container .b3-switch:after {
     border: 0.15em solid white;
+} */
+
+/* 设置界面中切换按钮 */
+.b3-switch,
+.b3-switch:checked {
+    height: 16px;
+    border-radius: 40px;
+}
+
+/* 设置界面中小圆形位置 */
+.b3-dialog--open .b3-dialog__container .b3-switch:after {
+    background-color: white;
+    top: 0.04em;
+    height: 12px;
+    width: 12px;
+    left: 3px;
+}
+
+.b3-dialog--open .b3-dialog__container .b3-switch:checked:after {
+    left: -7px;
+}
+
+/* 切换时设置鼠标悬浮时设置为透明色 */
+.b3-switch:focus:not(:disabled):before {
+    background-color: transparent !important;
+}
+
+.b3-switch:before {
+    background-color: transparent !important;
 }
 
 
@@ -39,7 +68,7 @@ li.b3-list-item--focus.b3-list-item.b3-list-item--big svg.b3-list-item__graphic 
 /* 为“打开主题文件夹”的按钮文字设置为蓝色 */
 a#appearanceOpenTheme,
 a#appearanceOpenIcon {
-    color: rgb(100, 100, 255);
+    color: rgb(81, 81, 253);
 }
 
 

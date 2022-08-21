@@ -134,7 +134,7 @@
     --b3-font-background7: #ccc1d9;
     --b3-font-background8: #c0c0c0;
     --b3-font-background9: red;
-    --b3-font-background10: yellow;
+    --b3-font-background10: rgb(255, 255, 0);
     --b3-font-background11: blue;
     --b3-font-background12: green;
     --b3-font-background13: transparent;
@@ -147,7 +147,7 @@
     --b3-filetree-background5: #cde3f4;
     --b3-filetree-background6: #dbdcf4;
     --b3-filetree-background7: #e7d5f5;
-    --b3-filetree-background8: #f1f1f1;
+    --b3-filetree-background8: #e4e4e4;
 
     /* 8中文档树左侧线条颜色 */
     --b3-filetree-border-color1: #e84c21cc;

@@ -18,6 +18,9 @@
     border-radius: 1px;
 }
 
+
+
+
 /* 块标提示不被窗口线遮挡 */
 .protyle-gutters {
     z-index: 3;
@@ -60,3 +63,16 @@ textarea.b3-text-field.fn__flex-1 {
 .protyle-gutters {
     transition: all 200ms ease-out;
 }
+
+
+/* 设置iframe挂件的宽度 */
+.b3-typography iframe,
+.protyle-wysiwyg iframe {
+    width: 80vw !important;
+}
+
+/* 设置编辑器内容鼠标上下滚动时顺滑效果，类似于Edge浏览器的效果 */
+/* 在长文档时，会产生鼠标滚动方向和页面方向相反的bug */
+/* .protyle-content {
+    scroll-behavior: smooth;
+} */

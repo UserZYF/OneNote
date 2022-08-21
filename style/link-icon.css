@@ -25,7 +25,7 @@
 .protyle-wysiwyg [data-node-id] a[href ^="http"]::before,
 .b3-typography a[href ^="http"]::before {
     content: "";
-    background-image: url('../icon4Tsundoku/link2.svg');
+    background-image: url('../icon4Tsundoku/link.png');
 }
 
 .protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="weibo.com"]:not(:empty)::before,
@@ -88,6 +88,12 @@
 .b3-typography a[href *="iconfont.cn"]::before {
     content: "";
     background-image: url('../icon4Tsundoku/iconfont_cn.png');
+}
+
+.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="baidu.com"]:not(:empty)::before,
+.b3-typography a[href *="baidu.com"]::before {
+    content: "";
+    background-image: url('../icon4Tsundoku/baidu_com.png');
 }
 
 .protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="pan.baidu.com"]:not(:empty)::before,
@@ -156,11 +162,7 @@
     background-image: url('../icon4Tsundoku/weixin_sogou_com.png');
 }
 
-.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="baidu.com"]:not(:empty)::before,
-.b3-typography a[href *="baidu.com"]::before {
-    content: "";
-    background-image: url('../icon4Tsundoku/baidu_com.png');
-}
+
 
 .protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="tieba.baidu.com"]:not(:empty)::before,
 .b3-typography a[href *="tieba.baidu.com"]::before {
@@ -476,8 +478,8 @@
 }
 
 /* notion */
-.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="notion"]:not(:empty)::before,
-.b3-typography a[href *="notion"]::before {
+.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="notion.so"]:not(:empty)::before,
+.b3-typography a[href *="notion.so"]::before {
     content: "";
     background-image: url('../icon4Tsundoku/notion.svg');
 }

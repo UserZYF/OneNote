@@ -48,6 +48,11 @@
     color: #4068ee !important;
 }
 
+.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="baidu.com"]:not(:empty),
+.b3-typography a[href *="baidu.com"] {
+    color: #1c25de !important;
+}
+
 .protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="pan.baidu.com"]:not(:empty),
 .b3-typography a[href *="pan.baidu.com"] {
     color: #36cef7 !important;
@@ -103,10 +108,7 @@
     color: #fc4f26 !important;
 }
 
-.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="baidu.com"]:not(:empty),
-.b3-typography a[href *="baidu.com"] {
-    color: #1c25de !important;
-}
+
 
 .protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="tieba.baidu.com"]:not(:empty),
 .b3-typography a[href *="tieba.baidu.com"] {

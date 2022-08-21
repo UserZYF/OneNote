@@ -148,3 +148,7 @@ div[style*="background-color"] div[data-type="NodeHeading"]::before {
     border: var(--b3-border-normal);
     border-radius: 1px;
 }
+
+/* .protyle-wysiwyg div[fold="1"][data-type="NodeHeading"]::after {
+    content: "...";
+} */

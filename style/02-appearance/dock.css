@@ -1,10 +1,21 @@
-/* 隐藏左上角设置按钮，鼠标悬浮时显示 */
-#toolbar .toolbar__item svg {
-    opacity: 0;
-}
+/*电脑*/
+@media screen and (min-width: 960px) {
 
-#toolbar:hover svg {
-    opacity: 1;
+    /* 隐藏左上角设置按钮，鼠标悬浮时显示 */
+    #toolbar .toolbar__item svg {
+        opacity: 0;
+    }
+
+    #toolbar:hover svg {
+        opacity: 1;
+    }
+
+    /* 设置顶部标题颜色 */
+    .toolbar #drag,
+    .toolbar svg {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+
 }
 
 /* 设置顶栏背景颜色 */
@@ -12,11 +23,6 @@
     background-color: #7719aa;
 }
 
-/* 设置顶部标题颜色 */
-.toolbar #drag,
-.toolbar svg {
-    color: rgba(255, 255, 255, 0.7) !important;
-}
 
 /* 设置顶部dock栏条目颜色 */
 .toolbar .dock__item {

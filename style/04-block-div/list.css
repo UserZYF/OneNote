@@ -44,6 +44,10 @@
     border-radius: var(--b3-border-radius-half-round);
 }
 
+.protyle-wysiwyg [data-node-id].li[fold="1"]>.protyle-action--task::after {
+    border-radius: 0px;
+}
+
 /* 小圆点颜色 */
 .protyle-wysiwyg [data-node-id].li[fold="1"]>.protyle-action {
     color: var(--b3-theme-primary) !important;
@@ -71,11 +75,53 @@
     width: 11px;
 } */
 
+/* 将列表中的表格设置左边距，向右移，防止和·重合，影响观看 */
+
+
+.list[custom-f="bg"] div.table {
+    padding: 10px 4px 10px 20px;
+    display: table;
+    width: 100%;
+}
+
 /* -------------------------列表折叠 END------------------------ */
 /* ----------------------------------列表 END--------------------------------------- */
 
 /* —————————————————————完成的待办事项删除线样式和颜色（包括字体样式）——————————————————————— */
 .li.protyle-task--done .p {
     text-decoration: line-through;
-    color: #55555a80;
+    color: #55555a3f;
+}
+
+
+
+
+/* 将默认的待办事项方框透明度设置为0 */
+.protyle-wysiwyg [data-node-id].li>.protyle-action--task svg {
+    opacity: 0;
+}
+
+/* 鼠标悬浮时设置为透明，否则会有灰色圆形出现 */
+.protyle-wysiwyg [data-node-id].li>.protyle-action--task:hover:after {
+    background-color: transparent !important;
+    opacity: 0 !important;
+}
+
+
+
+/* 设置待办事项样式 */
+.protyle-action--task:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    border: 0.1em solid #74aec2;
+    background-color: transparent;
+}
+
+.protyle-task--done>.protyle-action::before {
+    background-image: url(../../src/dui.svg);
+    background-position: -1.5px -1px;
+    background-repeat: no-repeat;
 }

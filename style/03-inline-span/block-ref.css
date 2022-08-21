@@ -17,10 +17,10 @@
     display: inline-block;
     position: relative;
     background-repeat: no-repeat;
-    background-size: 1em 1em;
-    background-image: url('../../src/page.svg');
-    width: 1em;
-    height: 1em;
+    background-size: 1.1em 1.1em;
+    background-image: url('../../src/page.png');
+    width: 1.1em;
+    height: 1.1em;
     margin-right: 0.2em;
     margin-left: 5px;
     top: 0.17em;
