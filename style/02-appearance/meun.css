@@ -18,7 +18,7 @@
     text-overflow: ellipsis;
     line-height: 1.5em;
     color: #80808080;
-    padding-bottom: 4px;
+    /* padding-bottom: 4px; */
     /* border-bottom: 1px solid rgba(128, 128, 128, 0.08); */
 }
 
@@ -111,7 +111,7 @@ div#commonMenu {
 
 /* 设置分栏 */
 /* --------------------------------将'/'弹出的选择窗口分为4栏，便于直观进行选择（分栏）---------------------------------------- */
-.b3-menu.b3-list.b3-list--background {
+.b3-menu.b3-list.b3-list--background.hint--menu {
     column-count: auto;
     column-width: 148px !important;
     column-gap: 5px;

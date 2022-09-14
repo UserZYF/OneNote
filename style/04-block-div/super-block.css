@@ -9,7 +9,7 @@
 
 /* —————————————————————————————————————次超级块大小—————————————————————————————————————— */
 .protyle-wysiwyg [data-node-id].sb[data-sb-layout="col"] .sb {
-    margin: 0.1em 2em 0.1em 0.1em;
+    margin: 0.1em 0.5em 0.1em 0.1em;
 }
 
 .protyle-wysiwyg [data-node-id].sb[data-sb-layout="col"] .sb:nth-last-child(2) {
@@ -18,7 +18,7 @@
 
 /* ——————————————————————————————————————每个子超级块—————————————————————————————————————— */
 .protyle-wysiwyg [data-node-id].sb[data-sb-layout="col"]>[data-node-id] {
-    margin: 0.1em 2em 0.1em 0.1em;
+    margin: 0.1em 0.5em 0.1em 0.1em;
 }
 
 /* 最后一个子超级块不设置右边距 */

@@ -1,0 +1,29 @@
+/* 修改大纲标记颜色 */
+.sy__outline li .popover__block {
+    color: var(--b3-theme-on-background);
+    border-radius: 1px;
+}
+
+.sy__outline li[data-subtype="h1"] .popover__block {
+    background-color: var(--b3-font-background1);
+}
+
+.sy__outline li[data-subtype="h2"] .popover__block {
+    background-color: var(--b3-font-background2);
+}
+
+.sy__outline li[data-subtype="h3"] .popover__block {
+    background-color: var(--b3-font-background3);
+}
+
+.sy__outline li[data-subtype="h4"] .popover__block {
+    background-color: var(--b3-font-background4);
+}
+
+.sy__outline li[data-subtype="h5"] .popover__block {
+    background-color: var(--b3-font-background5);
+}
+
+.sy__outline li[data-subtype="h6"] .popover__block {
+    background-color: var(--b3-font-background6);
+}

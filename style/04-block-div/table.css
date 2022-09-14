@@ -4,6 +4,7 @@
 .b3-typography table {
     display: table;
     width: 100%;
+    font-size: 90%;
 }
 
 .b3-typography table tr,
@@ -25,7 +26,7 @@ table th {
 
 /* 设置表格内部边框 */
 th, td {
-    border: 0.1em solid rgba(204, 204, 204, 0.5) !important;
+    border: 0.1em solid #e5e5e5 !important;
     border-collapse: collapse;
     color: inherit;
 }

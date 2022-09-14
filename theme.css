@@ -1,8 +1,4 @@
 /* ----------------------------------------------------引入开始---------------------------------------------------------- */
-/* 引入网址链接前的图标相关代码 */
-@import url("style/link-icon.css");
-/* 给网址链接设置颜色 */
-@import url("style/link-icon-color.css");
 /* ————————————————————初始设置———————————————————— */
 /* 引入颜色和字体 */
 @import url("style/01-color-font/color-font.css");
@@ -16,9 +12,11 @@
 /* 修改上左右dock栏样式 */
 @import url("style/02-appearance/dock.css");
 /* 修改正文A4纸大小 */
-/* @import url("style/02-appearance/A4.css"); */
+@import url("style/02-appearance/A4.css");
 /* 修改文档树样式 */
 @import url("style/02-appearance/file-tree.css");
+/* 修改大纲样式 */
+@import url("style/02-appearance/outline.css");
 /* 修改标签页样式 */
 @import url("style/02-appearance/tab-bar.css");
 /* 修改面包屑样式 */
@@ -50,6 +48,10 @@
 @import url("style/03-inline-span/block-ref.css");
 /* 修改超链接样式 */
 @import url("style/03-inline-span/a-link.css");
+/* 引入网址链接前的图标相关代码 */
+@import url("style/link-icon.css");
+/* 给网址链接设置颜色 */
+@import url("style/link-icon-color.css");
 /* 修改标签样式 */
 @import url("style/03-inline-span/tag.css");
 /* 修改键盘keyboard样式 */
@@ -122,14 +124,3 @@
     font-style: normal;
     src: url('fonts/JetBrainsMono-Regular.ttf');
 }
-
-
-
-/* 格子背景（加了之后会显得脏） */
-/* .protyle-content {
-    background-image:
-        linear-gradient(90deg, rgba(60, 10, 30, 0.03) 2%, transparent 0px),
-        linear-gradient(1turn, rgba(60, 10, 30, 0.03) 2%, transparent 0px);
-    background-size: 30px 30px;
-    background-position: 50% center;
-} */

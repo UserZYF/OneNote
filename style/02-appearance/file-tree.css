@@ -1,7 +1,7 @@
 /* ————————————————————大纲等文字显示主题色———————————————————— */
 .block__logo {
-    font-weight: bold;
-    color: #55555a4d;
+    /* font-weight: bold; */
+    color: #55555a3f;
 }
 
 /* ————————————————————文档树、大纲、反向链接顶部的背景颜色———————————————————— */
@@ -41,6 +41,15 @@ body {
 }
 
 /* ------------------------------------------------------文档树--------------------------------------- */
+/* 文档树引用数字的颜色 */
+.counter {
+    color: #55555a5d;
+}
+
+.counter:hover {
+    background-color: transparent !important;
+}
+
 /* ————————————————————————————文件树文档图标悬浮放大———————————————————————— */
 .b3-list--files .b3-list-item__icon {
     transition: all 0.1s ease-in-out;
@@ -152,15 +161,7 @@ div.sy__file .b3-list-item__icon:hover {
 }
 
 /* ----------------------------------------修改文档树新建按钮的样式----------------------------------------- */
-/* 隐藏文档树后面的引用计数 */
-span.popover__block.counter.b3-tooltips.b3-tooltips__nw {
-    display: none;
-}
 
-/* 隐藏大纲后面的引用计数 */
-.fn__flex-1.fn__flex-column.file-tree.sy__outline span.counter {
-    display: none;
-}
 
 /* ————————————————————更改新建按钮样式———————————————————— */
 /* 隐藏原来的新建按钮的样式 */
@@ -231,64 +232,7 @@ li.b3-list-item.b3-list-item--hide-action {
 
 
 
-/* ————————————————————————————————————————大纲———————————————————————————————————————— */
-/* 将大纲前面的H1修改为数字 */
-.fn__flex-1.fn__flex-column.file-tree.sy__outline svg.b3-list-item__graphic.popover__block {
-    display: none;
-}
 
-/* 调整文档树折叠小三角的颜色 */
-.fn__flex-1.fn__flex-column.file-tree.sy__outline svg.b3-list-item__arrow.b3-list-item__arrow--open {
-    color: #80808042;
-}
-
-.fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h1"] .b3-list-item__text::before {
-    float: left;
-    font-family: var(--b3-font-family-code);
-    content: "◉";
-    margin-right: 4px;
-    color: var(--b3-font-color1);
-}
-
-.fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h2"] .b3-list-item__text::before {
-    float: left;
-    font-family: var(--b3-font-family-code);
-    content: "◉";
-    margin-right: 4px;
-    color: var(--b3-font-color2);
-}
-
-.fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h3"] .b3-list-item__text::before {
-    float: left;
-    font-family: var(--b3-font-family-code);
-    content: "◉";
-    margin-right: 4px;
-    color: var(--b3-font-color3);
-}
-
-.fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h4"] .b3-list-item__text::before {
-    float: left;
-    font-family: var(--b3-font-family-code);
-    content: "◉";
-    margin-right: 4px;
-    color: var(--b3-font-color4);
-}
-
-.fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h5"] .b3-list-item__text::before {
-    float: left;
-    font-family: var(--b3-font-family-code);
-    content: "◉";
-    margin-right: 4px;
-    color: var(--b3-font-color5);
-}
-
-.fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h6"] .b3-list-item__text::before {
-    float: left;
-    font-family: var(--b3-font-family-code);
-    content: "◉";
-    margin-right: 4px;
-    color: var(--b3-font-color6);
-}
 
 /* 鼠标在文档树前面悬浮时背景为透明 */
 .b3-list-item__toggle--hl:hover {

@@ -22,3 +22,8 @@ div.list div.bq div.p {
 div.list div.bq div[data-type="NodeHeading"] {
     margin-top: 4px;
 }
+
+/* 设置引用中段落的左内边距 */
+.bq>.p:not(.list .p) {
+    padding-left: 12px !important;
+}

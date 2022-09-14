@@ -66,9 +66,9 @@
 }
 
 /* ——————————————————————去除无序列表底部外边距———————————————————— */
-.protyle-wysiwyg [data-node-id].li>[data-node-id] {
+/* .protyle-wysiwyg [data-node-id].li>[data-node-id] {
     margin-bottom: 0px;
-}
+} */
 
 /* ————————————————————减小前面符号·的大小———————————————————— */
 /* .list[data-node-id][data-type="NodeList"] .protyle-action>svg {
@@ -88,11 +88,16 @@
 /* ----------------------------------列表 END--------------------------------------- */
 
 /* —————————————————————完成的待办事项删除线样式和颜色（包括字体样式）——————————————————————— */
-.li.protyle-task--done .p {
+/* .li.protyle-task--done .p {
+    text-decoration: line-through;
+    color: #55555a3f;
+} */
+
+/* 来自于light-blue主题，好处是完成待办事项，子级待办事项不会有删除线 */
+.protyle-task--done>.p {
     text-decoration: line-through;
     color: #55555a3f;
 }
-
 
 
 

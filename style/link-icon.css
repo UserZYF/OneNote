@@ -1,7 +1,7 @@
 /* ———————————————————————————————————————————————————为链接前的icon图标设置格式———————————————————————————————————————————————— */
 .protyle-wysiwyg [data-node-id] span[data-type='a']:not(:empty)::before,
-.b3-typography a:not(:empty)::before,
-.protyle-wysiwyg [data-node-id] a:not(:empty)::before {
+.b3-typography a::before,
+.protyle-wysiwyg [data-node-id] a::before {
     display: inline-block;
     position: relative;
     background-repeat: no-repeat;

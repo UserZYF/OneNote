@@ -1,9 +1,8 @@
 /* ------------------------------------------标签 tag--------------------------------------------- */
-.protyle-wysiwyg [data-node-id] span[data-type='tag']:not(:empty) {
+.protyle-wysiwyg [data-node-id] span[data-type='tag'] {
     color: var(--b3-theme-on-background);
     background-color: transparent;
-    border-color: transparent !important;
-    border-radius: 1px;
+    margin-right: 0.2em;
 }
 
 .protyle-wysiwyg [data-node-id] span[data-type="tag"] {
@@ -11,7 +10,14 @@
 }
 
 /* ————————————————————给标签前面添加OneNote的星号———————————————————— */
-.protyle-wysiwyg [data-node-id] span[data-type='tag']:not(:empty)::before {
+.protyle-wysiwyg [data-node-id] span[data-type='tag']::before {
     content: "★";
     color: #ed8733;
+}
+
+
+.protyle-wysiwyg [data-node-id] span[data-type='tag']::after {
+    content: ".";
+    color: #80808080;
+    vertical-align: -0.1em;
 }
