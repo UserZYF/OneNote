@@ -27,7 +27,7 @@
 /* -------------------------列表悬浮------------------------ */
 /* 大圆背景 */
 .protyle-wysiwyg [data-node-id].li>.protyle-action:hover:after {
-    background-color: rgba(34, 34, 34, 0.2) !important;
+    background-color: #dee1e6 !important;
     border-radius: var(--b3-border-radius-half-round);
 }
 
@@ -40,7 +40,6 @@
 /* -------------------------列表折叠------------------------ */
 /* 大圆背景 */
 .protyle-wysiwyg [data-node-id].li[fold="1"]>.protyle-action:after {
-    background-color: rgba(34, 34, 34, 0.2) !important;
     border-radius: var(--b3-border-radius-half-round);
 }
 

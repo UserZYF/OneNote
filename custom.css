@@ -5,3 +5,8 @@
 /* #toolbar .toolbar__item svg {
     opacity: 1 !important;
 } */
+
+/* 02 隐藏文档树中笔记本和文档前面的emoji */
+/* .sy__file .b3-list-item__icon {
+    display: none;
+} */

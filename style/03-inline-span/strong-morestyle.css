@@ -1,35 +1,35 @@
 /* ---------------------------------------设置9-12的字体样式----------------------------------------- */
 /* ———————————————修改字体样式和下划线—————————————————— */
 /* 将第8种文字取消加粗（灰色，不需要加粗） */
-strong[style="color: var(--b3-font-color8);"] {
+span[style="color: var(--b3-font-color8);"] {
     font-weight: inherit;
     color: #7a878b70 !important;
 }
 
-strong[style="color: var(--b3-font-color9);"] {
+span[style="color: var(--b3-font-color9);"] {
     font-family: "宋体" !important;
     color: inherit !important;
 }
 
-strong[style="color: var(--b3-font-color10);"] {
+span[style="color: var(--b3-font-color10);"] {
     font-family: "楷体" !important;
     color: inherit !important;
 }
 
-strong[style="color: var(--b3-font-color11);"] {
+span[style="color: var(--b3-font-color11);"] {
     font-family: "微软雅黑" !important;
     font-weight: bold;
     color: inherit !important;
 }
 
 /* 12 放大字体 */
-strong[style="color: var(--b3-font-color12);"] {
+span[style="color: var(--b3-font-color12);"] {
     color: inherit !important;
     font-size: 1.3em;
 }
 
 /* 13 OneNote主题色定制 */
-strong[style="color: var(--b3-font-color13);"] {
+span[style="color: var(--b3-font-color13);"] {
     color: transparent !important;
     background-color: var(--b3-theme-primary) !important;
     border-radius: 1px;
@@ -41,31 +41,31 @@ strong[style="color: var(--b3-font-color13);"] {
 /* —————————————————————————————设置9-12的背景样式（因为是深色背景，需要设置浅色文字）————————————————————————————————————— */
 /* 红 */
 div[style="background-color: var(--b3-font-background9);"],
-strong[style="background-color: var(--b3-font-background9);"] {
+span[style="background-color: var(--b3-font-background9);"] {
     color: var(--b3-font-color9);
 }
 
 /* 黄 */
 div[style="background-color: var(--b3-font-background10);"],
-strong[style="background-color: var(--b3-font-background10);"] {
+span[style="background-color: var(--b3-font-background10);"] {
     color: var(--b3-font-color10);
 }
 
 /* 蓝 */
 div[style="background-color: var(--b3-font-background11);"],
-strong[style="background-color: var(--b3-font-background11);"] {
+span[style="background-color: var(--b3-font-background11);"] {
     color: var(--b3-font-color11);
 }
 
 /* 绿 */
 div[style="background-color: var(--b3-font-background12);"],
-strong[style="background-color: var(--b3-font-background12);"] {
+span[style="background-color: var(--b3-font-background12);"] {
     color: var(--b3-font-color12);
 }
 
 /* 设置第13个背景色为挖空效果 */
 /* 正常状态下隐藏文字，只显示下面的横线：___________ */
-strong[style="background-color: var(--b3-font-background13);"] {
+span[style="background-color: var(--b3-font-background13);"] {
     color: transparent !important;
     background-color: transparent !important;
     border-bottom: 2px solid gray !important;
@@ -75,7 +75,7 @@ strong[style="background-color: var(--b3-font-background13);"] {
 }
 
 /* 鼠标悬浮时显示颜色 */
-strong[style="background-color: var(--b3-font-background13);"]:hover {
+span[style="background-color: var(--b3-font-background13);"]:hover {
     color: inherit !important;
 }
 

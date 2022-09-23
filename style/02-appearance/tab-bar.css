@@ -36,6 +36,8 @@ ul.fn__flex.layout-tab-bar {
     background-color: #f3f2f1;
 }
 
+
+
 /* .layout-tab-bar .item:first-child {
     margin-left: 4px;
 }
@@ -127,3 +129,13 @@ li.item.item--pin.item--focus:after {
 }
 
 /* --------------------------------------------------标签页 END--------------------------------------------- */
+
+/* 设置新建标签页位置跟随最后一个标签页，v2.1.14 代码来自于九炎，问题来自于赐我一胖 */
+ul.fn__flex.layout-tab-bar.fn__flex-1 {
+    flex: none;
+    max-width: calc(100% - 64px);
+}
+
+ul.layout-tab-bar {
+    flex: 1;
+}
